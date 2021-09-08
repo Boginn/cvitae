@@ -2,25 +2,18 @@ body {
   background-color: #11151f;
 
   padding: 20px;
-
 }
-
-
-
 
 .content-wrapper {
   /* padding-left: 30px; */
   background-color: #383d47;
   text-shadow: 1px 1px black;
   color: white;
-
 }
 
 .App-link {
   color: #61dafb;
 }
-
-
 
 @keyframes App-logo-spin {
   from {
