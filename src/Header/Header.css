@@ -1,0 +1,66 @@
+.headerWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  
+  border-radius: 10px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  
+
+  background: linear-gradient(95deg, #161c2c 80%, #11151f94);
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+
+
+}
+
+.headerTitle {
+  
+  margin-bottom: 0;
+  font-size: 32pt;
+  letter-spacing: .15rem;
+  text-shadow: 2px 1px black;
+}
+.headerSubTitle {
+  margin-left: 15px;
+  font-size: 14pt;
+  
+  text-shadow: 1px 1px black;
+}
+
+.headerImage {
+  margin-top: 4px;
+  max-width: 160px;
+
+  border: 2px dotted rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  
+}
+
+
+.headerFade {
+	opacity: 1;
+	animation-name: fade;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fade {
+	0% {
+		opacity: 0.1;
+
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
